@@ -6,15 +6,16 @@
     <link href="./main.css" rel="stylesheet" type="text/css"
   </head>
   <body>
-    <h1>Break it down with Choosey!</h1>
+    <h1>Break it down with Choosy!</h1>
     <div class="inputSection">
       <div class="inputs">
-        <input placeholder="Something"></input>
+        <input placeholder="Add option..."</input>
       </div>
-      <button class="addOption">Add</button>
+      <button class="addOption">+</button>
     </div>
     <div class="resultSection"></div>
-    <button class="scramble">Scramble!</button>
+    <a href="#" class="scramble">Scramble!</a>
+    <!---<button class="scramble">Scramble!</button>/*-->
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script>
@@ -38,6 +39,7 @@
         $('.resultSection').text(winner)
       }
       $('.scramble').click(scramble)
+
     })
     </script>
   </body>
