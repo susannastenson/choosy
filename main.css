@@ -23,6 +23,7 @@ h1{
   margin: 50px 0px;
   width: 400px;
 }
+
 ::placeholder {
   color: white;
   opacity: 0.75;
